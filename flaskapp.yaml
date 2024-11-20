@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: flask
-  strategey:
+  strategy:
     rollingUpdate:
       maxSurge: 20%
       maxUnavailable: 20%
